@@ -1,0 +1,36 @@
+.product_card {
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.product_img {
+  width: auto;
+  height: 300px;
+}
+
+.product_title {
+  color: rebeccapurple;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.product_text {
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  line-height: 1.5em;
+  max-height: 4.5em;
+  color: #757575;
+}
+
+.product_button {
+  text-decoration: none;
+  background-color: rebeccapurple;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  display: inline-block;
+}
